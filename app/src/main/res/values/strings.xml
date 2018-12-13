@@ -1,0 +1,33 @@
+<resources>
+    <string name="app_name">ScannerProject</string>
+    <string name="action_settings">Settings</string>
+    <string name="reset_database">Reset</string>
+    <!-- HistoryActivity Errors-->
+    <string name="error_not_in_database">Was not found in the history database</string>
+    <string name="error_sqlexception">This format is not supported for the history feature</string>
+
+    <!-- HistoryDetailsActivity-->
+    <string name="notice_deleted_from_database">Deleted from the History</string>
+    <!-- HistoryDetailsActivity Action Navigation-->
+    <string name="title_delete">Delete</string>
+    <!-- MainActivity-->
+    <string name="title_format">Code format:</string>
+    <string name="title_information">Code information:</string>
+    <string name="default_text_main_activity">Press on the "Scan" Button to scan a QR-Code/Barcode</string>
+    <string name="send_to">Share with:</string>
+    <string name="xzing_label">Activate the flashlight using the volume keys</string>
+    <string name="notice_clipoard">Copied to Clipboard</string>
+    <!--MainActivity Errors-->
+    <string name="error_scan_first">Scan a QR-Code first</string>
+    <string name="error_canceled_scan">You canceled the scanning</string>
+    <string name="error_add_to_database">Was not able to add QR-Code to the history</string>
+    <!-- MainActivity Navigation-->
+    <string name="title_scan">Scan</string>
+    <string name="title_generate">Generate</string>
+    <string name="title_history">History</string>
+    <!-- MainActivity Action Navigation-->
+    <string name="title_copy">Copy</string>
+    <string name="title_share">Share</string>
+    <string name="title_reset">Reset</string>
+    <string name="title_openInWeb">Open in Web</string>
+</resources>
