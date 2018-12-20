@@ -180,10 +180,11 @@ public class MainActivity extends AppCompatActivity {
                         addToDatabase(mTvInformation.getText().toString(), mTvFormat.getText().toString());
                     }
                     //Automatic Clipboard if activated
-                    String auto_scan = prefs.getString("pref_auto_clipboard", "");
-                    if(auto_scan.equals("true")){
+                    //String auto_scan = prefs.getString("pref_auto_clipboard", "");
+                    //if(auto_scan.equals("true")){
                         copyToClipboard(mTvInformation, qrcode, activity);
-                    }
+                    //}
+                    finish();
                 }
 
             }
